@@ -1,6 +1,6 @@
 FROM nimmis/alpine-apache-php5:latest
 
-COPY repositories /etc/apk/repositories
+#COPY repositories /etc/apk/repositories
 RUN apk update && apk upgrade && \
     apk add php5-fpm php5-cli && \
     apk add php5-pdo_mysql &&\ 

@@ -1,1 +1,4 @@
-docker-compose.yml
+server:
+  image: 'alpine/php:0.1'
+  pront:
+  - "80:80"
