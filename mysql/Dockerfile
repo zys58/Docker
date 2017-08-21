@@ -1,0 +1,1 @@
+FROM wangxian/alpine-mysql:latest

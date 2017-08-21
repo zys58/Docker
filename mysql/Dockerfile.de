@@ -1,0 +1,5 @@
+FROM  nimmis/alpine-micro
+
+RUN apk update && apk upgrade && \
+	apk add mysql-client && \
+	rm -rf /var/cache/apk/*
